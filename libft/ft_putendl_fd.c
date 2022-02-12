@@ -1,29 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/11 16:15:34 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/12 15:18:46 by otapan           ###   ########.fr       */
+/*   Created: 2022/02/12 14:49:52 by otapan            #+#    #+#             */
+/*   Updated: 2022/02/12 16:06:09 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar_fd(char c, int fd)
+void	ft_putendl_fd(char const *s, int fd)
 {
-	write(fd, &c, 1);
+	ft_putstr_fd(s, fd);
+	write(fd, "\n", 1);
 }
-/* 
-int main()
+
+int	main(void)
 {
-    int i = 1;
-    ft_putchar_fd('K', i);
-} */
+	int	fd;
+
+	fd = 2;
+	ft_putendl_fd("merhaba", fd);
+}
 /* int main()
 {
-    int i = open("olcay.txt", O_WRONLY);
-    ft_putchar_fd('K', i);
+int fd = open("a",1);
+printf("değer: %d", fd);
+ft_putendl_fd("merhaba",fd);
 } */
+	

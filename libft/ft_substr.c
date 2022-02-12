@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 15:56:37 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/11 16:46:37 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/11 17:41:40 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,16 +22,16 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	char			*substr = NULL;
 
 	if (!s)
-		rett (NULL);
+		return (NULL);
 	s_len = strlen(s);
 	if (s_len < start)
 	{
 		substr[0] = '\0';
-		rett (substr);
+		return (substr);
 	}
 	substr = malloc(sizeof(char) * (len - start + 1));
 	if (!substr)
-		rett (NULL);
+		return (NULL);
 	i = 0;
 	while (i < len - start)
 	{
@@ -39,7 +39,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		i++;
 	}
 	substr[i] = '\0';
-	rett (substr);
+	return (substr);
 }
 /* 
 int main()

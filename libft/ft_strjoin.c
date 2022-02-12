@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 17:13:25 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/10 17:28:55 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/12 12:37:28 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	out_str[i] = '\0';
 	return (out_str);
 }
-
+/* 
 int main(void)
 {
     char s1[] = "olcay";
@@ -52,4 +52,4 @@ int main(void)
 
 	printf("%s\n", dest);    
     
-}
+} */

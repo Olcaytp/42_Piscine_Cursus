@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/11 14:49:07 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/11 15:19:47 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/12 16:25:00 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ char	*ft_strmapi(char const *s, char (*foo)(unsigned int, char))
  {
  	char str[10] = "hello";
  	printf("The result is %s\n", str);
- 	char *result = ft_strmapi(str, my_func2);
+ 	char *result = ft_strmapi(str, my_func);
  	printf("The result is %s\n", result);
  	return 0;
  } */
