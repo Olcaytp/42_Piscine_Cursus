@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/11 15:44:51 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/11 18:53:11 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/12 12:47:19 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,11 +52,11 @@ char	*ft_strtrim(char const *s1, char const *s2)
 	str[i] = '\0';
 	return (str);
 }
-/* 
+
 int	main()
 {
 	char	a[] = "Hello";
 	char	b[] = "H";
 
 	printf("%s", ft_strtrim(a, b));
-} */
+}
