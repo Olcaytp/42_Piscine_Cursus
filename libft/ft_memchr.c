@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 15:20:21 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/10 17:42:47 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/12 17:38:48 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	size_t				i;
+	size_t			i;
 	unsigned char	*ptr;
 	unsigned char	character;
 

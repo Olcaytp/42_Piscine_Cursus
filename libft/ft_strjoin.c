@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 17:13:25 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/12 12:37:28 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/12 17:32:36 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	s2_len = ft_strlen(s2);
 	i = 0;
 	j = -1;
-    out_str = malloc(sizeof(char) * (s1_len + s2_len + 1));
+	out_str = malloc(sizeof(char) * (s1_len + s2_len + 1));
 	if (!out_str)
 		return (NULL);
 	while (s1[i])

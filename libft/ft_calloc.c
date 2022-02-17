@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 13:21:21 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/10 13:25:57 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/17 10:05:25 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,13 @@
 void	*ft_calloc(size_t count, size_t size)
 {
 	char			*dst;
-	unsigned int	total;
+	size_t			total;
 	unsigned int	i;
 
 	total = count * size;
-	if (!(dst = malloc(total)))
-		return (NULL);
+	dst = malloc(total);
+	if (!dst)
+		return (0);
 	i = 0;
 	while (total--)
 	{

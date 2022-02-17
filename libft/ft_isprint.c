@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/31 16:06:40 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/10 14:20:24 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/14 15:48:28 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,7 @@
 
 int	ft_isprint(int str)
 {
-	if ((str < 32) || (str > 126))
-		return (0);
-	return (1);
-}
-
-int	main(void)
-{
-	printf("%d", ft_isprint(45));
+	if (str >= 32 && str <= 126)
+		return (1);
+	return (0);
 }
