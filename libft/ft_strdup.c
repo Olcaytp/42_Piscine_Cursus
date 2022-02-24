@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/10 13:34:40 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/12 17:31:52 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/24 11:51:41 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,5 +37,5 @@ char	*ft_strdup(const char *s1)
 {
 	printf("%s\n", ft_strdup("Hello world!"));
 	return (0);
-}
- */
+} */
+

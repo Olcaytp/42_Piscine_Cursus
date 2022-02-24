@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/12 14:49:52 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/12 17:30:19 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/23 17:45:07 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,14 +17,14 @@ void	ft_putendl_fd(char const *s, int fd)
 	ft_putstr_fd(s, fd);
 	write(fd, "\n", 1);
 }
-/* 
+
 int	main(void)
 {
 	int	fd;
 
 	fd = 1;
 	ft_putendl_fd("merhaba", fd);
-}*/
+}
 /*
  int main()
 {

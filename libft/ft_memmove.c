@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 15:09:46 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/15 12:10:20 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/23 17:39:22 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,12 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
+/* int main(void)
+{
+	char dest1sys[] = "Aticleworld";
+	const char src1sys[] = "Amlendra";
+	printf("Before memmove >> dest1sys = %s, src1sys = %s\n\n", dest1sys, src1sys);
+	ft_memmove(dest1sys, src1sys, 5);
+	printf("After memmove >> dest1sys = %s, src1sys = %s\n\n", dest1sys, src1sys);
+	printf("---------------\n");
+} */

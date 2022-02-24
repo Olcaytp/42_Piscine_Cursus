@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/11 14:49:07 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/12 16:25:00 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/24 12:35:39 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ char	*ft_strmapi(char const *s, char (*foo)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/* 
+
  char my_func(unsigned int i, char str)
  {
  	printf("My inner function: index = %d and %c\n", i, str);
@@ -45,4 +45,4 @@ char	*ft_strmapi(char const *s, char (*foo)(unsigned int, char))
  	char *result = ft_strmapi(str, my_func);
  	printf("The result is %s\n", result);
  	return 0;
- } */
+ }

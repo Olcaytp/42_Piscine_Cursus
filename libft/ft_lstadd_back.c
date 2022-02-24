@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 14:28:19 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/14 14:57:44 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/18 14:36:34 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ void	ft_lstadd_back(t_list **lst, t_list *temp)
 // cunku new->next null olmali en sona new.
 /* 
 // === BEGINNING OF MY TEST ===
+//gcc ft_lstadd_back.c ft_lstnew.c ft_lstlast.c
 int	main(void)
 {
 	t_list	*list;

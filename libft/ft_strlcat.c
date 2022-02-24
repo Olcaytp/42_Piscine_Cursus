@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 12:32:13 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/09 16:32:31 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/24 12:25:24 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,17 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[c] = '\0';
 	return (ft_strlen(dst) + ft_strlen(&src[d]));
 }
+/* int main(void)
+{
+
+	
+	// strcpy(stra1, "Hi I m Pavan Kumar Sake . This is my 1st string to append to other string , \n");
+	//strcpy(stra2, " (This is my 2nd string to concatenate and then to print the result from the 1st string variable )\n"); 
+	char stra1[] = "Olcay";
+	char stra2[] = "Cagri";
+	
+	printf("String before concatenation: \"%s\"\n", stra1);
+	ft_strlcat(stra1, stra2, 3);
+	printf("\nString after concatenation: \"%s\"\n", stra1);
+	printf("---------------\n");
+} */

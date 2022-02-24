@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 12:56:25 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/09 16:32:31 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/24 13:27:28 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,3 +35,12 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
+/* int main(void)
+{
+
+	const char *hay1 = "Sait Özkanöz";
+	const char *needle1 = "Öz";
+
+	printf("%s\n", ft_strnstr(hay1, needle1, 12));
+	printf("---------------\n");
+} */

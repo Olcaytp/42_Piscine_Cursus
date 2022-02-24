@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 15:25:52 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/09 16:30:56 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/23 17:30:13 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,12 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (*ptr1 - *ptr2);
 }
+/* int main(void)
+{
+
+	char str1sys1[15] = "Olcay";
+	char str1sys2[15] = "Olcet";
+	int ret1sys = memcmp(str1sys1, str1sys2, 5);
+	printf("%d\n", ret1sys);
+	printf("---------------\n");
+} */

@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 11:25:03 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/14 14:37:06 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/18 14:05:30 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ void	ft_lstadd_front(t_list **lst, t_list *temp)
 	temp->next = *lst;
 	*lst = temp;
 }
-
 /* 
 // === BEGINNING OF MY TEST ===
 #include <stdio.h>
@@ -28,7 +27,8 @@ int	main()
 	t_list	*node;
 	int		i = 0;
 	node = NULL;
-	while (i < 10)
+
+	while (i < 3)
 	{
 		ft_lstadd_front(&node, ft_lstnew(&i));
 		printf("==========================================================\n");

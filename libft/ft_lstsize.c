@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 14:17:54 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/14 14:37:36 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/24 14:13:00 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	ft_lstsize(t_list *lst)
 	i = 1;
 	if (!lst)
 		return (0);
-	while (lst->next)
+	while (lst->next != 0)
 	{
 		lst = lst->next;
 		i++;

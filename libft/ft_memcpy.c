@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/01 17:01:37 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/15 11:58:41 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/23 17:37:12 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,3 +32,11 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+/* int main()
+{
+	char src1sys[20] = "How Are you ?";
+	char dst1sys[20] = {0};
+	ft_memcpy(dst1sys, src1sys, sizeof(src1sys));
+	printf("dst1sys = %s\n", dst1sys);
+	printf("---------------\n");
+} */

@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/12 12:56:11 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/14 15:54:49 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/24 11:48:03 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,15 +88,15 @@ char	**ft_split(char const *s, char c)
 	ft_split_words (res, s, c, word_ct);
 	return (res);
 }
-/* 
+
 int	main(void)
 {
 	int		i;
 	char	**a;
 
 			i = 0;
-			a = ft_split("marhaba.selamlar.mmm", '.');
+			a = ft_split("marhaba.selamlar.money", '.');
 	printf("%s\n", a[0]);
 	printf("%s\n", a[1]);
 	printf("%s", a[2]);
-} */
+}

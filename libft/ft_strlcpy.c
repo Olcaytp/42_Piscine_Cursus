@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/02 12:28:30 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/09 16:32:31 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/24 12:35:10 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,11 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcsize);
 }
+/* int main()
+{
+  char dst[]="bilgisayar&programlama";
+  char src[]="bilisimvadisi";
+  ft_strlcpy(dst,src,6);
+  printf("%s\n",dst);
+  printf("%s",&dst[6]);
+} */

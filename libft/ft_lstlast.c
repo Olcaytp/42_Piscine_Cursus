@@ -6,7 +6,7 @@
 /*   By: otapan <otapan@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/14 14:22:27 by otapan            #+#    #+#             */
-/*   Updated: 2022/02/14 14:40:23 by otapan           ###   ########.fr       */
+/*   Updated: 2022/02/18 15:38:08 by otapan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,4 +40,5 @@ int	main()
 	tail = ft_lstlast(list);
 	printf("content of last node =	%d\n", (int)tail->content);
 }
-// === END OF MY TEST === */
+// === END OF MY TEST ===
+ */
