@@ -1,0 +1,1 @@
+In the C Piscine education, we learned basic linux commands and basic functions in the C programming language.
