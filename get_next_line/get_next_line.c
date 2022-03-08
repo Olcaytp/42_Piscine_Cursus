@@ -3,7 +3,7 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cyliz <cyliz@student.42kocaeli.com>    +#+  +:+       +#+        */
+/*   By: cyliz <otapan@student.42kocaeli.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/22 09:46:35 by cyalniz           #+#    #+#             */
 /*   Updated: 2022/03/04 15:42:54 by cyliz          ###   ########.fr       */
